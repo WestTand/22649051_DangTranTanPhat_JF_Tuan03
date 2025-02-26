@@ -1,0 +1,21 @@
+.flex-container_02{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.flex-container_02 > input {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 10px;
+}
+.flex-container_02 > button {
+    font-size: 18px;
+    width: 250px;
+    height: 50px;
+    border: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

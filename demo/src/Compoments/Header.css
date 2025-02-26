@@ -7,7 +7,7 @@
   }
   
   .flex-container>div {
-    width: auto;
+    width: 100px;
     margin: 10px;
     text-align: center;
     line-height: 25px;
@@ -30,7 +30,7 @@
     color: palevioletred;
     font-size: 18px;
     margin-left: 50px;
-    width: 200px;
+    width: 250px;
     height: 50px;
     border: white;
     border-radius: 10px;
@@ -39,9 +39,7 @@
   }
   .flex-container >button > img{
     margin-right: 10px;
-    justify-items: center;
   }
   .flex-container > img {
     margin-left: 10px ;
   }
-  

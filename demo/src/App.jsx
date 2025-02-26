@@ -6,13 +6,20 @@ import icon from './assets/icon.jpg'
 import avatar from './assets/avatar.jpg'
 import './App.css'
 import Header from './Compoments/Header'
+import Bai02 from './Compoments/Bai2/Bai02.jsx'
 
 function App() {
   
 
   return (
     <>
-        <Header/>
+        <div className="container">
+            <Header />
+        </div>
+        <div>
+          <h1>Bai 02</h1>
+          <Bai02/>
+        </div>
     </>
   )
 }

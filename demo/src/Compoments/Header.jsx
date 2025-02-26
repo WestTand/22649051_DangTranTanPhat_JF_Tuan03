@@ -5,8 +5,8 @@ import Capture from '../assets/Capture.PNG'
 import './Header.css'
 const Header = () => {
   return (
-    <div>
-        <div class="flex-container">
+    <div className='Header'>
+        <div className="flex-container">
           <img src={icon} alt="" />
           <input type="text" />
           <div>What to cook</div>

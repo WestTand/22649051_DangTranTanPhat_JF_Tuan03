@@ -43,50 +43,11 @@
 .read-the-docs {
   color: #888;
 }
-
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  height: 50px;
-  width: auto;
-
-}
-
-.flex-container>div {
-  width: auto;
-  margin: 10px;
-  text-align: center;
-  line-height: 25px;
-  font-size: 18px;
-  color: black;
-  justify-content: space-around;
-}
-
-.flex-container>input {
-  background-color: #f1f1f1;
-  width: 200px;
-  margin: 10px;
-  text-align: center;
-  line-height: 15px;
-  border-radius: 10px;
-}
-
-.flex-container>button {
-  background-color: pink;
-  color: palevioletred;
-  font-size: 18px;
-  margin-left: 50px;
-  width: 200px;
-  height: 50px;
-  border: white;
-  border-radius: 10px;
-  cursor: pointer;
-  
-}
-.flex-container >button > img{
-  margin-right: 10px;
-  justify-items: center;
-}
-.flex-container > img {
-  margin-left: 10px ;
+.container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
 }
